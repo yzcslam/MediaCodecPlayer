@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    >
+<com.example.player.MyTextureView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    </com.example.player.MyTextureView>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="play"
+        android:layout_weight="1"
+        android:id="@+id/player_btn"
+        />
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="pause"
+        android:layout_weight="1"
+        android:id="@+id/player_pause"
+        />
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="stop"
+        android:layout_weight="1"
+        android:id="@+id/player_stop"
+        />
+</LinearLayout>
+</LinearLayout>
